@@ -14,8 +14,8 @@ export default function Home() {
     <div className="px-5  rounded-xl">
       <Hero/>
       <Skills/>
-      <Portfolios/>
       <About/>
+      <Portfolios/>
       <Expreience/>
       <Education/>
       {/* <Contact/> */}

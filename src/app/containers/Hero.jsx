@@ -40,7 +40,7 @@ function Hero() {
             {/* Close button */}
             <button
               onClick={() => setIsOpen(false)}
-              className="absolute top-2 right-4 text-3xl text-gray-700"
+              className="absolute top-2  right-4 text-3xl text-gray-700 "
             >
               &times;
             </button>
@@ -48,7 +48,8 @@ function Hero() {
             <Image
               src={resume}
               alt="resume-Image"
-              className="rounded-lg"
+              className="rounded-lg md:w-96 "
+              priority
             />
           </div>
         </div>

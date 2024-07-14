@@ -15,19 +15,41 @@ function Portfolios() {
 
         <div className="container mx-auto ">
   <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-6 my-10">
-    <div className="">
-      <Image src={res2} alt='restaurent-img1' className="w-fill rounded"/>
-    </div>
-    <div className="">
-      <Image src={res1} alt='restaurent-img2' className="w-fill rounded"/>
-    </div>
-    <div className="">
-      <Image src={gym} alt='gym-img' className="w-fill rounded"/>
-    </div>
-    <div className="">
-      <Image src={studio} alt='studio-img' className="w-fill rounded"/>
-    </div>
-   
+  <div className="relative">
+  <Image src={res2} alt='restaurant-img1' className="w-full rounded"/>
+  <div className='absolute top-4 right-2 z-20 '>
+    <a href="https://restaurant-conveb.vercel.app/" target='_blank' className='border border-white p-1 px-2 text-white bg-black bg-opacity-30 backdrop-blur'>
+      Live
+    </a>
+  </div>
+</div>
+
+<div className="relative">
+  <Image src={res1} alt='restaurant-img1' className="w-full rounded"/>
+  <div className='absolute top-4 right-2 z-20 '>
+    <a href="https://edvin-restaurant-app.netlify.app" target='_blank' className='border border-white p-1 px-2 text-white bg-black bg-opacity-30 backdrop-blur'>
+      Live
+    </a>
+  </div>
+</div>
+
+<div className="relative">
+  <Image src={gym} alt='restaurant-img1' className="w-full rounded"/>
+  <div className='absolute top-4 right-2 z-20 '>
+    <a href="https://gymbyconveb.netlify.app/" target='_blank' className='border border-white p-1 px-2 text-white bg-black bg-opacity-30 backdrop-blur'>
+      Live
+    </a>
+  </div>
+</div>
+
+<div className="relative">
+  <Image src={studio} alt='restaurant-img1' className="w-full rounded"/>
+  <div className='absolute top-4 right-2 z-20 '>
+    <a href="https://studio-photo.vercel.app/" target='_blank' className='border border-white p-1 px-2 text-white bg-black bg-opacity-30 backdrop-blur'>
+      Live
+    </a>
+  </div>
+</div>
   </div>
 </div>
     </section>
