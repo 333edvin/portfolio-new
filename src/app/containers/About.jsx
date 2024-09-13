@@ -14,7 +14,7 @@ function About() {
            I&apos;m a full-stack MERN and Nextjs developer, committed to utilizing technology for efficient problem-solving and a commitment to delivering top-notch results
           </p>
           <a href="/images/resume.pdf" download className="border rounded p-3 w-full md:w-auto block text-center flex items-center justify-center gap-3">
-            Download Resume <FaCloudDownloadAlt className="text-xl text-cyan-300"/>
+            Download Resume. <FaCloudDownloadAlt className="text-xl text-cyan-300"/>
           </a>
         </div>
         <div className="flex flex-col md:flex-row justify-between text-sm gap-10">
